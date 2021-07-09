@@ -1,6 +1,8 @@
 body {
     background-color: rgba(248, 248, 19, 0.452);
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo {
@@ -27,6 +29,7 @@ a {
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 .post {
@@ -44,6 +47,7 @@ a {
 }
 
 .post_img {
+    width: 100%;
     margin: 0;
     margin-bottom: 15px;
 }
